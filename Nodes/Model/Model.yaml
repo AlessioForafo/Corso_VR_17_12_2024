@@ -104,3 +104,7 @@ Children:
   Id: g=8684d5b5c61ea12c6e3667eded2a3fc5
   Type: BaseDataVariableType
   DataType: Int32
+- Name: Incremento
+  Id: g=e84dc0916a415feb1c1c670eaf55164c
+  Type: BaseDataVariableType
+  DataType: Int32

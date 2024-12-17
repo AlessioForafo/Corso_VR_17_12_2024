@@ -7,6 +7,7 @@ using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
+using FTOptix.Alarm;
 #endregion
 
 public class ChildrenCounter : BaseNetLogic

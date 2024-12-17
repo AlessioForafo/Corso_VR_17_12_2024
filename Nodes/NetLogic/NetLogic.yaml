@@ -156,3 +156,30 @@ Children:
        "highestIgnoredVersion": 0
       }
      }
+- Name: DesignTimeNetLogic1
+  Id: g=5183d1425c0052645ed3a01ee36eafb3
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=0aaa8f0270abe1616054fc239fb1907d
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: MioPrimoMetodo
+    Id: g=8a5ea70a7d88f03b2f77742b2c601606
+  - Class: Method
+    Name: MioSecondoMetodo
+    Id: g=02b2c817bc003fe7a63b6f95b702f0f8
+  - Name: Testo
+    Id: g=dc7b8f18c8462defeb8ac2df42a84a93
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ciao"
+- Name: RuntimeNetLogic1
+  Id: g=5fd1c56c26e3e6a2ccc0bd4f384afee4
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: MioMetodo
+    Id: g=61fbcc0edb5c088d04df630d6edd3682

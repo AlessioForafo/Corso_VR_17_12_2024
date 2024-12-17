@@ -1,3 +1,65 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: AllarmeCodice
+  Id: g=d24ec836d04f4515959bc08418f42e52
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6293fe34d13863224ea48f000dce69cc
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=02c218d2745054ed72c4fb8d3425f159
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=f43b8393cdcef2e7dd8d56eb877bc45b
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=605c2ff14d9ba6898748d274ac011dcb
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Testo allarme prova"}
+  - Name: Severity
+    Id: g=2a9431cbfa0c3142b86ba65d2d4e75ef
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 10

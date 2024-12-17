@@ -14,6 +14,7 @@ using System.Security.Cryptography;
 using System.Text;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
+using FTOptix.Alarm;
 #endregion
 
 public class LoginWebBrowserLogic : BaseNetLogic

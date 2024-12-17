@@ -8,6 +8,7 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.WebUI;
 using FTOptix.OPCUAServer;
+using FTOptix.Alarm;
 #endregion
 
 public class CreateUserPanelLogic : BaseNetLogic
