@@ -89,16 +89,32 @@ Project:
    Uri: 'urn:FTOptix:Recipe:Net'
    Module: FTOptix.Recipe.Net
    Version: 1.0
+  23:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.2
+  24:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.2
+  25:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.1
+  26:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 1122
-  Objects: 239
-  ObjectTypes: 13
-  Variables: 860
+  TotalNodeCount: 3207
+  Objects: 659
+  ObjectTypes: 31
+  Variables: 2489
   VariableTypes: 0
   DataTypes: 0
-  Methods: 10
-  References: 42
+  Methods: 28
+  References: 83
   ReferenceTypes: 0
-  Files: 23
+  Files: 27
  Nodes:
  - File: Nodes/Corso_VR_17_12_2024.yaml

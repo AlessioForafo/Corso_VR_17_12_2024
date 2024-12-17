@@ -1,52 +1,83 @@
 Name: Corso_VR_17_12_2024
+Id: g=c5d3ad50535e5adaef8c3cfe7681c7c9
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=05864bab7c77e426d0762174e6277aee
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=f11fa2933f38b9405dd9ed2c5f319aa9
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","it-CH","ru-RU"]
   - Name: LocaleFallbackList
+    Id: g=d2928545ae989f982ceb224e138297bf
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
+  - Name: MeasurementSystemMap
+    Id: g=450880f37445649d9962c9d32a9626e7
+    Type: BaseDataVariableType
+    DataType: MeasurementSystemMapItem
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":235,"Namespace":1},"Body":{"From":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":0,"NamespaceIndex":7}},"InternationalSystemOfUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":0,"NamespaceIndex":7}},"USCustomarySystem":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":1,"NamespaceIndex":7}},"BritishImperialUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":1,"NamespaceIndex":7}}}}]
 - Name: Authentication
+  Id: g=8f9191608bce6154f96ad04ce3da3165
   Type: PropertyGroup
   Children:
   - Name: DefaultUserFolder
+    Id: g=48f3cbad30853614a8d67700b38e905b
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Corso_VR_17_12_2024/Security/Users"
     Children:
     - Name: Kind
+      Id: g=faac3e2ba2902d5c6a9a68189771fefd
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: AuthenticationMode
+    Id: g=7fff2fbd7a7e5fe1ff3e6a002a56a76c
+    Type: BaseDataVariableType
+    DataType: AuthenticationMode
 - Name: PasswordPolicy
+  Id: g=b83305b50a3ffdf5dded08a34a7ea824
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=2aa06d01e9afd9e9a83adf4fc49d68a0
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: EnforcePasswordHistory
+    Id: g=26c9ac884f0a049ffbe25f620580b9bd
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=8f79bf299b8b74f96d7e30404ddbbf9f
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: MinimumPasswordLength
+    Id: g=6376398ac0a4eef2a1b717ca8886fe54
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=5e77b8f7ddcb885cab5b3744b481e751
   Type: PropertyGroup
+- Name: EngineeringUnitDictionary1
+  Id: g=dd75fd3779c33edfda939f890eedd3f8
+  Type: EngineeringUnitDictionary
+  DataType: EngineeringUnitDictionaryItem
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":0,"DisplayName":{"NamespaceIndex":7,"TextId":"bottlem2"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"PhysicalDimension":0,"Slope":20.0,"Intercept":1.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":1,"DisplayName":{"LocaleId":"en-US","Text":"bottles / sf"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"PhysicalDimension":0,"Slope":35.0,"Intercept":2.0}}]
 - File: UI/UI.yaml
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml
@@ -64,11 +95,13 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - Name: RecipeSchema1
+  Id: g=43d91c6c8c8c663dda2c71f7efb15c2a
   Type: Alias
   DataType: NodeId
   Value: "/Objects/Corso_VR_17_12_2024/Recipes/RecipeSchema1/EditModel"
   Children:
   - Name: Kind
+    Id: g=b388049279b56d051ffd513eb2a6f2d0
     Type: PropertyType
     DataType: NodeId
     Value: "/Objects/Corso_VR_17_12_2024/Recipes/RecipeSchema1/EditModel"

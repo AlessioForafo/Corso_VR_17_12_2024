@@ -1,4 +1,5 @@
 Name: DataStores
+Id: g=25b5e15d89e4c45cda07c298ecf6ce10
 Type: DataStoresCategoryFolder
 Children:
 - Name: EmbeddedDatabase1
@@ -6,6 +7,7 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=fb4448b89763bc14f5311943c83c66fd
     Type: BaseObjectType
     Children:
     - Name: DataLogger1
@@ -25,28 +27,36 @@ Children:
         Target: ns=17;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=66945a081ba8f4e765a288af73521179
         Type: BaseObjectType
         Children:
         - Name: Timestamp
+          Id: g=3cc411f83894c0332197fe6c13f48115
           Type: StoreColumn
           DataType: UtcTime
         - Name: LocalTimestamp
+          Id: g=977bd5687dccc29fc0f5aaf29d2ca2c0
           Type: StoreColumn
           DataType: DateTime
         - Name: Temperatura
+          Id: g=72dd4e8a010c7955f6692b1297d711a4
           Type: StoreColumn
           DataType: Int32
         - Name: Pressione
+          Id: g=f45eb2898b6c296796513a0f559348a6
           Type: StoreColumn
           DataType: Int32
         - Name: Umidita
+          Id: g=6712ab6bdac5d3d19f5d5b6a2ad5eebc
           Type: StoreColumn
           DataType: Int32
       - Name: RecordLimit
+        Id: g=bebe9df7a7b38ae39ae7d336d27945d6
         Type: BaseDataVariableType
         DataType: UInt32
         Value: 100000
     - Name: RecipeSchema1
+      Id: g=6ade79e79f98a0cdbafca17dead69fca
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -62,18 +72,23 @@ Children:
         Target: ns=17;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=d5b29535566e083271475f351aa28f9e
         Type: BaseObjectType
         Children:
         - Name: Name
+          Id: g=2429517dd7af66e957d311fe9c50d3de
           Type: StoreColumn
           DataType: String
         - Name: /Ingrediente1
+          Id: g=ede7c55ba8356bb34b9632aa2541330c
           Type: StoreColumn
           DataType: Int32
         - Name: /Ingrediente2
+          Id: g=1a8e1828c2dae6acb14bde15c40ca156
           Type: StoreColumn
           DataType: String
         - Name: /Ingrediente3
+          Id: g=71f4be3bb917324d254ae8a2822e30b7
           Type: StoreColumn
           DataType: Boolean
   - Class: Reference
@@ -83,20 +98,24 @@ Children:
     Target: ns=19;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=5ae01ccd646eb2c47ba5dceadece3f56
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: MaxColumnCount
+    Id: g=9d6a1cd2fcc9b6e97bb5c7ad7920eb64
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: DataTypeCompatibilityMap
+    Id: g=ed15d2ec7225923fe77e5bc06325879c
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
   - Name: Status
+    Id: g=d900e2f687eff1765df9ae0d5a07e288
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -135,6 +154,7 @@ Children:
     Target: ns=17;i=59
     Direction: Forward
   - Name: Filename
+    Id: g=cb88428fbd640dab91cdb0203a30716e
     Type: BaseDataVariableType
     DataType: String
     Value: "MioDB"

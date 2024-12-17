@@ -1,4 +1,5 @@
 Name: NetLogic
+Id: g=e43351b1a46d5984be833f72b4580310
 Type: NetLogicCategoryFolder
 Children:
 - Name: DataLoggerExporter
@@ -7,65 +8,81 @@ Children:
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: CSVPath
+    Id: g=ff25f15f1d84dfa3086b5892b9fb7a1d
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
     Value: "file:///C:/Temp/DataLogger.csv"
   - Name: FieldDelimiter
+    Id: g=434a37a71592ed8dfd92b1416f196673
     Type: BaseDataVariableType
     DataType: String
     Value: ";"
   - Name: Table
+    Id: g=72b86170e67a6b97b22df7b0e4f1a1a5
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Corso_VR_17_12_2024/DataStores/EmbeddedDatabase1/Tables/DataLogger1"
     Children:
     - Name: Kind
+      Id: g=fb94931f592e6b29ba124aa99ddee962
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/Table"
   - Class: Method
     Name: Export
+    Id: g=6e7efacd96b6c2c1838cf5ebc4a9a970
   - Name: Query
+    Id: g=5e516da0b2f58400536f4fef641273f1
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
     Children:
     - Name: StringFormatter1
+      Id: g=a17bd8342cef515dc29a251879e2b117
       Type: StringFormatter
       Children:
       - Name: Format
+        Id: g=a0b95282d610066994244164d91c0bd3
         Type: BaseDataVariableType
         DataType: LocalizedText
         ReferenceType: HasParameter
         Value: {"LocaleId":"en-US","Text":"Timestamp BETWEEN {1:sql_literal} AND {2:sql_literal}"}
       - Name: Source1
+        Id: g=7b0ee3e83e47775bdc7fd0b4fe177205
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=2121d4fd5911c9048b04e3ca955ff54a
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../From"
       - Name: Source2
+        Id: g=59b0c41c06d340a0992762ccc75e86f4
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=e6740c015be9aa68ab6ac78fb9fa1aa4
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../To"
   - Name: From
+    Id: g=f0fa1b15d3ab0c53d2c092db2b4d2c00
     Type: BaseDataVariableType
     DataType: DateTime
   - Name: To
+    Id: g=2605e9cda7b06563bc93d7f8232d7738
     Type: BaseDataVariableType
     DataType: DateTime
   - Name: WrapFields
+    Id: g=82b3f549e846c2339fecd2a3e2cbc770
     Type: BaseDataVariableType
     DataType: Boolean
   - Name: ns=4;LibraryReference
+    Id: g=44b92b2bcc8eed528f248aebc8c0627b
     Type: ObjectLibraryReference
     DataType: ObjectLibraryReferenceDataType
     Value: 
@@ -77,6 +94,64 @@ Children:
       "Body": {
        "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
        "objectGuid": "c85ea2a2a38ceb1f69d250e09bc6f4d9",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
+- Name: ImportAndExportTranslations
+  Id: g=4d025607bbd19f4d67b017a7c57d3645
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=f31844e0fb2b36c3d736bee254f15c8d
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Id: g=ee22c87e6a4b5c4d40d5cdaa457d17cf
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/temp/myTranslations.csv"
+  - Class: Method
+    Name: ExportTranslations
+    Id: g=0bb75d7a83a0f65ef948f87b16f6be1d
+  - Class: Method
+    Name: ImportTranslations
+    Id: g=2ffb4279f30b7aa586a6c90317a711d4
+  - Name: CharacterSeparator
+    Id: g=6f0d9c78a7f55025c56caf66c75b3b59
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Id: g=ef4fb919c6c0b0d4194d78b84ee6f21b
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Id: g=dc548f4d8361a08d93018343b30fec33
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"acfac9052753f493563ff4c7ef34e058","Namespace":7}
+    Children:
+    - Name: Kind
+      Id: g=c284a4c7e406c05e92c400d111df02a1
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+  - Name: ns=4;LibraryReference
+    Id: g=a2cb5e7b4f880e369e1cc77ee564a60a
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
        "objectVersion": 1,
        "highestIgnoredVersion": 0
       }

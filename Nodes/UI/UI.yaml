@@ -1,4 +1,5 @@
 Name: UI
+Id: g=2453a72b6eec8bba781ce0c315cc8801
 Type: UICategoryFolder
 Children:
 - Name: DefaultStyleSheet
@@ -6,248 +7,681 @@ Children:
   Type: StyleSheet
   Children:
   - Name: ButtonStyles
+    Id: g=fceda7bf8c7fb1b5ed59a41f0c6ead42
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=056b3b5e1ecd61da64222ffc5c578629
       Type: ButtonStyle
     - Name: Accent
+      Id: g=6d4ce7a8bf2bd9f43f6d599f9544612b
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=e32c7c3089d9296928d016b5bed0db85
         Type: BaseDataVariableType
         DataType: Color
         Value: "#0fafff"
       - Name: BorderColor
+        Id: g=0995373ed63544fd0c63000aff2c9bd6
         Type: BaseDataVariableType
         DataType: Color
         Value: "#075982"
       - Name: TextColor
+        Id: g=a06932f743d653ba9962c1517a8683f9
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
     - Name: BorderedRectangular
+      Id: g=a34a1d39f5b17276269f617f630aef7d
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=d94c2741566d0208a2459c40a0880e15
         Type: BaseDataVariableType
         DataType: Color
         Value: "#0fafff"
       - Name: TextColor
+        Id: g=38153e6fc4deb8337a1ece209f9dc1bf
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
       - Name: BorderColor
+        Id: g=c6f52ffd9b4cf9592961eaa5b6964417
         Type: BaseDataVariableType
         DataType: Color
         Value: "#e4e4e4"
       - Name: BorderWidth
+        Id: g=dd46599c6f5cbe44e7b5b539b6c9eed8
         Type: BaseDataVariableType
         DataType: Size
         Value: 5.0
     - Name: BorderedCircular
+      Id: g=d1e89a35c0f852d3e520e27f57c4672f
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=33312be937ad86eb72659ab2c1894410
         Type: BaseDataVariableType
         DataType: Color
         Value: "#0fafff"
       - Name: TextColor
+        Id: g=1d838c47ebc53c5858333b6767136a24
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
       - Name: BorderColor
+        Id: g=2e4725da2a9ee150aa71bb8c2a6a37da
         Type: BaseDataVariableType
         DataType: Color
         Value: "#e4e4e4"
       - Name: BorderWidth
+        Id: g=4925bee5f1cb1725ca415fdb711734cf
         Type: BaseDataVariableType
         DataType: Size
         Value: 5.0
       - Name: Radius
+        Id: g=cef6d8243be918fd91dc4947ff77a55f
         Type: BaseDataVariableType
         DataType: Size
         Value: -1.0
     - Name: Emergency
+      Id: g=4c1400c9c3c6b5792832e19a18647644
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=f1c7993ed4393dcc7cd899d24ba02842
         Type: BaseDataVariableType
         DataType: Color
         Value: "#eb001b"
       - Name: TextColor
+        Id: g=d06b9a1b5241cd867167b12c957b7497
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
       - Name: BorderColor
+        Id: g=1aa56a42ffd1ad0b45a530c5e5e9f765
         Type: BaseDataVariableType
         DataType: Color
         Value: "#f8e71c"
       - Name: BorderWidth
+        Id: g=d1e4389dd897cfee50e318ac474c8234
         Type: BaseDataVariableType
         DataType: Size
         Value: 5.0
       - Name: Radius
+        Id: g=8a2f02375f9a6ab63ee2e919c12b3f6e
         Type: BaseDataVariableType
         DataType: Size
         Value: -1.0
     - Name: Transparent
+      Id: g=a04830dd582454cf06e47f36def98535
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=07caf63d7f78cf041a4f28aaf6e0152a
         Type: BaseDataVariableType
         DataType: Color
       - Name: BorderColor
+        Id: g=1eae43db3d5c8a1d3044e9b6ffb8bdee
         Type: BaseDataVariableType
         DataType: Color
       - Name: BorderWidth
+        Id: g=d658d9db97f22fe4e92390f5c0fbb52a
         Type: BaseDataVariableType
         DataType: Size
   - Name: InputBoxStyles
+    Id: g=30fa1fe330a9fd4440a65eae8f3a5196
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=12eef39f69e5e460976424d7f96a63f8
       Type: InputBoxStyle
   - Name: SwitchStyles
+    Id: g=431981d6af9a3a11a9f36615c2caf542
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=b449a2ebf5c5d8c1ca54a3920b0669df
       Type: SwitchStyle
   - Name: GaugeStyles
+    Id: g=fea992ac9d02daa14cf2b30eec13b945
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=5133f8bc84a423535f7bf0d8ee865d79
       Type: GaugeStyle
   - Name: NavigationPanelStyles
+    Id: g=28dd23aec8bd9f9ab9d3da9f8c027340
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=f0ad09266443682e0f8de185c13e5146
       Type: NavigationPanelStyle
   - Name: ChartStyles
+    Id: g=e3b7456f57349b31a7ce65e83f820280
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=2fb5e485349588ed3207d7fb2f16f78b
       Type: ChartStyle
   - Name: DataListStyles
+    Id: g=5da29e9714cd3cdd2fe76e9a7ef124af
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=13222ca135b910e5f8861945984d115e
       Type: DataListStyle
   - Name: ToolTipStyles
+    Id: g=256284db0f2fadf2140674e2e3e286be
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=508b5a4636722fafa38285afa05c2d70
       Type: ToolTipStyle
   - Name: ScrollBarStyles
+    Id: g=309cfecfb24103d5586d89d630a3dc8f
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=c43ea00869ed2a7c52bb853b208d07da
       Type: ScrollBarStyle
   - Name: AccordionStyles
+    Id: g=b8cbb498858e51d5c20c1ce8cd9a5324
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=5aa52f1718684c521b60dec097774046
       Type: AccordionStyle
   - Name: PieChartStyles
+    Id: g=ed239c90ce61a13db40c5fb3737bd9aa
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=03b205935891e72507639cd2654e6fbd
       Type: PieChartStyle
   - Name: HistogramChartStyles
+    Id: g=a4edd1a789428b86210e5a5fb848c63b
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=3235d6e33933ef8d9c45c3635a4b6b01
       Type: HistogramChartStyle
   - Name: LabelStyles
+    Id: g=b077a7ac39c8d7dd2a2c75c4a03c787a
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=acca6a60aef53fd3e22b31598a6e9e00
       Type: LabelStyle
   - Name: RadioButtonStyles
+    Id: g=4961d1010bd4384d87df925acd32a904
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=36df2a31e195b457717307c0dc96eb0c
       Type: RadioButtonStyle
   - Name: CheckBoxStyles
+    Id: g=0faf52dd4b5588d1714d891baa9e7de4
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=12e0c9e22f353fc5a378a15df98eab40
       Type: CheckBoxStyle
 - Name: NativePresentationEngine
+  Id: g=5e4fa71df27e67791bdf9d85efcf75f7
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
   Children:
   - Name: EnableVirtualKeyboard
+    Id: g=1a371801660d844d26428b92c686e78a
     Type: BaseDataVariableType
     DataType: Boolean
   - Name: StartWindow
+    Id: g=33744f293e364f0af372c50a5f0e53a5
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Corso_VR_17_12_2024/UI/MainWindow"
     Children:
     - Name: Kind
+      Id: g=02d21685911883de6d99713adedbf5af
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
   - Name: StyleSheet
+    Id: g=3d0ecd8b3c3e9aeece17995ed442dee1
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Corso_VR_17_12_2024/UI/DefaultStyleSheet"
     Children:
     - Name: Kind
+      Id: g=2fe0656e575a0b49a9dd1e2269bd8401
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
   - Name: StartingUser
+    Id: g=29660792c2c820454171207692888cbe
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Users/Anonymous"
     Children:
     - Name: Kind
+      Id: g=f1c239173614cec96c53415966271281
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
+    Id: g=be6604d8bdd66ec49683cf00dfde3c26
     Type: BaseObjectType
+  - Name: Session
+    Id: g=02f0780ee82f17c2816cbf484b87f50f
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Corso_VR_17_12_2024/UI/UISession1"
+    Children:
+    - Name: Kind
+      Id: g=84126ca2fc16ca254efd5e43b64444c2
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/SessionType/UISession"
+- Name: WebPresentationEngine
+  Id: g=5a6ba2e245b2eace2da70f238d852116
+  Type: ns=23;PresentationEngine
+  Children:
+  - Name: Protocol
+    Id: g=194cc5967b0d681c53c497817818f132
+    Type: BaseDataVariableType
+    DataType: Protocol
+    Value: 1
+  - Name: IPAddress
+    Id: g=bb65daa7842ee94664fa7e5cc5316522
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0.0.0.0"
+  - Name: Port
+    Id: g=49183592d084ea8980476188e726e5e5
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 8080
+  - Name: StartWindow
+    Id: g=cdac552e7913276406ae4267673c6112
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Corso_VR_17_12_2024/UI/MainWindow"
+    Children:
+    - Name: Kind
+      Id: g=8016f9b15c1783440d73980a0ab0a5d2
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
+  - Name: StyleSheet
+    Id: g=b4992e047d73995bee10caf900907dd5
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Corso_VR_17_12_2024/UI/DefaultStyleSheet"
+    Children:
+    - Name: Kind
+      Id: g=f9e995ddd9423ead73beca3a26ba86b7
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: StartingUser
+    Id: g=5201bc16188f1e2034dc4ac90d141829
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Users/Anonymous"
+    Children:
+    - Name: Kind
+      Id: g=63cd2b6dac896ec726d301b72853ecc7
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: Sessions
+    Id: g=47041911f67f33d0613d86c668a5ca96
+    Type: BaseObjectType
+    Children:
+    - Name: Session1
+      Id: g=cf672b8c563e91dff886df4a65f8231a
+      Type: UISession
+      Children:
+      - Name: IsInteractive
+        Id: g=eb5716355eb3acc55bf5992734b3e0da
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+        Value: true
+      - Name: IsNative
+        Id: g=2062818bee87d721c848fdd665df468d
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+      - Name: IsWeb
+        Id: g=27c6f761b2ef7c50b395b98332fceb25
+        Type: BaseDataVariableType
+        DataType: Boolean
+        AccessLevel: Read
+      - Name: IpAddress
+        Id: g=8b7ea33c1f0c165ed869349002e8984e
+        Type: BaseDataVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: StyleSheet
+        Id: g=504652d315c25e97a3bdc51e218971fd
+        Type: NodePointer
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Id: g=e1c5620ea59059e693b11ead71dae5e3
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+      - Name: User
+        Id: g=158f7829c5d6d09bd8877a77f79eefc5
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Id: g=d80e5afa22403af11ff47bb7a41c1945
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+      - Name: ActualLocaleId
+        Id: g=7ccb3ba1a25b6292ebdf5dea7cf0dc9e
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+      - Name: ActualLanguage
+        Id: g=7a8522e533643358d75205d30724577e
+        Type: BaseVariableType
+        DataType: LocaleId
+        ReferenceType: HasProperty
+      - Name: ActualMeasurementSystem
+        Id: g=8ce7409d5048612e4f1e2d242699d846
+        Type: BaseVariableType
+        DataType: MeasurementSystem
+        ReferenceType: HasProperty
+      - Name: TimeZoneOffset
+        Id: g=3460946d6f787c4165629851ad74680e
+        Type: BaseVariableType
+        DataType: TimeZoneDataType
+        ReferenceType: HasProperty
+        AccessLevel: Read
+      - Name: Groups
+        Id: g=f077474e712a367d5954d49a485a358b
+        Type: BaseObjectType
+      - Name: Roles
+        Id: g=6e2bb06fdac590cd9114479765cfdb6f
+        Type: BaseObjectType
+      - Name: Rights
+        Id: g=e574cf20504766334643ddfd6f04bf2b
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=1;i=146
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=266
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=269
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=303
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=272
+        Direction: Forward
+      - Name: LoggedIn
+        Id: g=a4e0cba7c0dec3133769efaeafc43ba9
+        Type: BaseVariableType
+        DataType: Boolean
+        AccessLevel: Read
+  - Name: MaxNumberOfConnections
+    Id: g=4e19a12c75a9a4262597aa56edaa0ea1
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 5
+- Name: UISession1
+  Id: g=5dfd8e7a3e400684946ba3d03e0da43b
+  Supertype: UISession
+  Children:
+  - Name: IsInteractive
+    Id: g=756d0b9d0d57d1b2f9f8c2b45da70b32
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Value: true
+  - Name: IsNative
+    Id: g=d75dc0d30262e67156297eb40bd4dd80
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: IsWeb
+    Id: g=bc284d9c0dd2ec8c62d4e9de45be879a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: IpAddress
+    Id: g=12fc6835ad198d699a7e787dced1a3c0
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: StyleSheet
+    Id: g=5e8c5e43bbfe88529af4b6625457df6c
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=8ff3bd7d452fe9ff00069306055c7a32
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+  - Name: User
+    Id: g=060d5c448ae085df015a48b897108db1
+    Type: NodePointer
+    DataType: NodeId
+    AccessLevel: Read
+    Children:
+    - Name: Kind
+      Id: g=0e1f20a842ce030d27a6edf71573d187
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
+  - Name: ActualLocaleId
+    Id: g=a2c5bb45d728f377d6d6c5b9794ee809
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+  - Name: ActualLanguage
+    Id: g=43a4cabd978b0982cd504678cfa4427e
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+  - Name: ActualMeasurementSystem
+    Id: g=1f35f9b992e28c58b7799cc76a301865
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+  - Name: TimeZoneOffset
+    Id: g=57aaac8639f6b7aa2051486d811550f7
+    Type: BaseVariableType
+    DataType: TimeZoneDataType
+    ReferenceType: HasProperty
+    AccessLevel: Read
+  - Name: Groups
+    Id: g=19567c3a8230d9a0abb99de67c816c03
+    Type: BaseObjectType
+  - Name: Roles
+    Id: g=bafb9248b3f4346d00480abfdeca427e
+    Type: BaseObjectType
+  - Name: Rights
+    Id: g=6d5aad329a15a18b53300adfa3bdfb23
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=1;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=266
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=269
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=303
+    Direction: Forward
+  - Class: Reference
+    Target: ns=1;i=272
+    Direction: Forward
+  - Name: LoggedIn
+    Id: g=04e96b14c97cbced5af0f7507a4b43a8
+    Type: BaseVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: IdleTimeoutDuration
+    Id: g=8664f3f649bfa0bc007219803de53f81
+    Type: BaseDataVariableType
+    DataType: Duration
+    ModellingRule: Optional
+    Value: "0:00:00:05.0000000"
+  - Name: IdleTimeoutEnabled
+    Id: g=623de00e33efd04991b0bf5cffa3149b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
+    Value: true
+  - Name: IdleTimeoutEventHandler1
+    Id: g=3ae5b5612033687df6bd9cca08c2b8ba
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Id: g=2886ecd9bcc615c3fc5635860bbec0f4
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/EventTypes/BaseEventType/IdleTimeoutEvent"
+    - Name: MethodsToCall
+      Id: g=1552d2c5ad8f144858bfab253b4f6e29
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainer1
+        Id: g=8f86ac4b539cb74241b1b85ea0b97850
+        Type: BaseObjectType
+        Children:
+        - Name: ns=2;ObjectPointer
+          Id: g=4ddd4532d49c9e8fa3a1f889011491be
+          Type: NodePointer
+          DataType: NodeId
+          Children:
+          - Name: Kind
+            Id: g=3e01df049031c3e284973e4f71a45015
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: DynamicLink
+            Id: g=8bd3e0a30a7f9cbdae3004ed76e6e308
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../..@NodeId"
+            Children:
+            - Name: Mode
+              Id: g=0c0e296ae9704b7350a986397be81b77
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: ns=2;Method
+          Id: g=f7b39bd988bddb5b80b15acb3728832c
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Logout"
+    - Name: EventArguments
+      Id: g=f81e9967f05da57bbf5857f36c6ce168
+      Type: IdleTimeoutEvent
+      Children:
+      - Name: EventId
+        Id: g=66e2065eb4fdfd354abe9b27e9fd840f
+        Type: PropertyType
+        DataType: ByteString
+      - Name: EventType
+        Id: g=242f94921642d226d1a0fbbc6a9dad88
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceNode
+        Id: g=5c65739baa1a61fc26e24dbc535f26b5
+        Type: PropertyType
+        DataType: NodeId
+      - Name: SourceName
+        Id: g=066cb4570dfd3ca7f1ad62cecff932ef
+        Type: PropertyType
+        DataType: String
+      - Name: Time
+        Id: g=269169368ba728304dc94e6076ee6558
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: ReceiveTime
+        Id: g=17a6b2c2615221d3d830bdb20cb451ff
+        Type: PropertyType
+        DataType: UtcTime
+      - Name: Message
+        Id: g=851e470e6f7ecc0bbee1a73a81251022
+        Type: PropertyType
+        DataType: LocalizedText
+      - Name: Severity
+        Id: g=175c82534484ddb67db1583a81c1f2e8
+        Type: PropertyType
+        DataType: UInt16
+  - Name: Variable1
+    Id: g=d2ff945412ec083829d1eeac5b40bb3b
+    Type: BaseDataVariableType
+    DataType: Int32
 - Name: MainWindow
   Id: g=01a7e8933afd7c95fe894b0859308138
   Supertype: Window
   Children:
   - Name: Width
+    Id: g=f6bd943bbd98105b38863db13ecdd3a5
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 1280.0
   - Name: Height
+    Id: g=50a6ca6fe61bf64c2e971a66700843ef
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 800.0
   - Name: Caption
+    Id: g=a081f9f7e3445e1acd52c5b3cfd7323f
     Type: BaseDataVariableType
     DataType: String
     Children:
     - Name: DynamicLink
+      Id: g=392f26e479ce1086771a602ae08377c5
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/Corso_VR_17_12_2024@BrowseName"
   - Name: PanelLoaderMainWinow
+    Id: g=44e85b54ab670af6a4d82705f6ea286a
     Type: PanelLoader
     Children:
     - Name: Panel
+      Id: g=a0ebf40fcfccd31f34439084dffefc27
       Type: NodePointer
       DataType: NodeId
       Value: "/Objects/Corso_VR_17_12_2024/UI/Screens/SplashPanel"
       Children:
       - Name: Kind
+        Id: g=dad14de23f7607b62922ad04239b695a
         Type: PropertyType
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
     - Name: CurrentPanel
+      Id: g=166855441416cf9e1f9968b4dd03ff35
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
       Children:
       - Name: Kind
+        Id: g=8788b52ce2c7c0071d2a877620a2663b
         Type: PropertyType
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
@@ -255,31 +689,40 @@ Children:
       Target: ns=3;i=478
       Direction: Forward
     - Name: Width
+      Id: g=70bc47d16f7d24e67dd1b27722d6a01b
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 610.0
     - Name: Height
+      Id: g=271300644164ce2251cc623030be366a
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 450.0
     - Name: LeftMargin
+      Id: g=56bf4742cb51ad4014aef608b042241a
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: TopMargin
+      Id: g=fe4420443d91d66f27ff79e58d86f98b
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
     - Name: HorizontalAlignment
+      Id: g=42ce39174bd82f7d6449dcd2d915ca7a
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
+      Id: g=e45bed2fc756090bc6cd5ff5a8fb0901
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
 - File: Screens/Screens.yaml
+- File: ChangeUserForm/ChangeUserForm.yaml
+- File: LoginForm/LoginForm.yaml
+- File: UserEditor/UserEditor.yaml

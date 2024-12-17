@@ -17,6 +17,7 @@ using FTOptix.TwinCAT;
 using FTOptix.CommunicationDriver;
 using FTOptix.ODBCStore;
 using FTOptix.SQLiteStore;
+using FTOptix.WebUI;
 #endregion
 
 public class SplashPanelLogic : BaseNetLogic

@@ -1,5 +1,106 @@
 Name: Model
+Id: g=8419abe9c75b70c665a3238e5e05d837
 Type: ModelCategoryFolder
 Children:
 - File: VariabiliDataLogger/VariabiliDataLogger.yaml
 - File: VariabiliRicetta/VariabiliRicetta.yaml
+- Name: AnalogVariable1
+  Id: g=6ad99237219fa714d8f234fa86993c4c
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Id: g=118877bb274001b4c518bf55e9002533
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=aeece276bce89ec1e633e0416c47fa27
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Id: g=5b22cce07c6505314b995836db05b17b
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: Constrain
+      Id: g=cff30471884af7c53c51de73b098a7da
+      Type: BaseDataVariableType
+      DataType: Boolean
+  - Name: EngineeringUnits
+    Id: g=9d5d01cca91b5f217021adca13f8e995
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Id: g=1c279762f794c270f32aa214c1a6bcb0
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4408652
+    - Name: DisplayName
+      Id: g=69f32fea3280b3719d1b6ddfb7c0cb96
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=66aaf80988441cffbc8c086f595d3851
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+- Name: Variable2
+  Id: g=5c6cd846ac0aab305953c4739a3a388b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: g=58577c6fa0b66a61b7e50964171bc063
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+    Children:
+    - Name: UnitId
+      Id: g=46450004bc2334184a93122d85a3ce23
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4408652
+    - Name: DisplayName
+      Id: g=10c7472cf4787197aab0f307ad967fba
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=e04a85c662817d7175235051054d9333
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+- Name: Variable3
+  Id: g=cf79a1b770c5ff5ee531026d1d9bfc3e
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: g=6505f3cd33a3e52b974d5ed970dc8a3f
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+    Children:
+    - Name: UnitId
+      Id: g=e9eac7781ef7505197903f01eb7194d2
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: DisplayName
+      Id: g=3ae01137d577c830a412c20ac717a97d
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=0152a59e64bcbf7d25c5882b3499736d
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: NamespaceIndex
+      Id: g=40d5336ed0563137bfcaecb5b5aa28a0
+      Type: BaseDataVariableType
+      DataType: NamespaceIndex
+      Value: 7
+- Name: Variable4
+  Id: g=6c7dc109c78748bfc2d7b00a4b12d4ca
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable1
+  Id: g=8684d5b5c61ea12c6e3667eded2a3fc5
+  Type: BaseDataVariableType
+  DataType: Int32

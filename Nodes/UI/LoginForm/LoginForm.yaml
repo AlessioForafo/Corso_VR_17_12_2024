@@ -1,0 +1,234 @@
+Name: LoginForm
+Id: g=41346a0afb2199e3880afcc3b9d80bd2
+Type: FolderType
+Children:
+- Name: LoginForm
+  Id: g=d0fba00ff93f064d6e1cb546eea27209
+  Supertype: PanelLoader
+  ReferenceType: HasComponent
+  Children:
+  - Name: Panel
+    Id: g=70e726c2dd04c25192f75719212f6e62
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=4c1ba703865367a986467803aa698e8a
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: ConditionalConverter1
+      Id: g=4f5518764bc6225eb6a7772548bc9d0a
+      Type: ConditionalConverter
+      Children:
+      - Name: Condition
+        Id: g=213870c7be21bc87983ba2641efb0c80
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=ab248efad99409983ac5f6bfe5fa1706
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{Session}/LoggedIn"
+      - Name: TrueValue
+        Id: g=3f3e7e50f143b3550e5b872d76319f22
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "/Objects/Corso_VR_17_12_2024/UI/LoginForm/LoginFormComponents/Logout"
+      - Name: FalseValue
+        Id: g=4e49db389ba8fdc438f96c8464ec243c
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ReferenceType: HasParameter
+        Value: "/Objects/Corso_VR_17_12_2024/UI/LoginForm/LoginFormComponents/Login"
+        Children:
+        - Name: KeyValueConverter1
+          Id: g=e968cc79b361919c085a505eb403acef
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Id: g=adf821ae0f8727404eb86a4e1050880c
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Id: g=4c38b3a2c317a4b5e4fe512a68650384
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Corso_VR_17_12_2024/Authentication/AuthenticationMode"
+          - Name: ns=2;Pairs
+            Id: g=3f6b2f33fe4d7c61b8d4eab2ecfa2dc4
+            Type: BaseObjectType
+            ModellingRule: None
+            Children:
+            - Name: Pair
+              Id: g=cd366df15da7e89375f9232ebda544da
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=2454a32f8ecd34ea8e34b71635959bf8
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+              - Name: Value
+                Id: g=e127fe4a5b53ad54aec4e33442bae714
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Corso_VR_17_12_2024/UI/LoginForm/LoginFormComponents/Login"
+            - Name: Pair1
+              Id: g=cceb5f9757634aec3837b91c76fa9337
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=3fb983d6778b3bc5cacd71078d207a18
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 1
+              - Name: Value
+                Id: g=4beb633864b71d5550ea1f355bb72a0a
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Corso_VR_17_12_2024/UI/LoginForm/LoginFormComponents/Login"
+            - Name: Pair2
+              Id: g=c018aa982bac3f9048e973a23de232b2
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=63572719fa261136327f12d5577e13fa
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 2
+              - Name: Value
+                Id: g=95e310b1a66cea8cd2a6c4ef259e2e62
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Corso_VR_17_12_2024/UI/LoginForm/LoginFormComponents/Login"
+            - Name: Pair3
+              Id: g=a37266a8dabcd3dffcc6a69a56cd84df
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=dc6d930586dee3ba58e3297d10b26894
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 3
+              - Name: Value
+                Id: g=8ca79babeef274a1fb6d4a17d5b1d388
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Corso_VR_17_12_2024/UI/LoginForm/LoginFormComponents/Login"
+            - Name: Pair4
+              Id: g=2a2ff89817238dce95059d7c36fcaa8f
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=44e96fd2fa7226626a020f7904fa7ea9
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 4
+              - Name: Value
+                Id: g=fa2271981e81f3edc7253063efa7260f
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Corso_VR_17_12_2024/UI/LoginForm/LoginFormComponents/Login"
+            - Name: Pair5
+              Id: g=c9c6b15b24c995b064fa5ab2fd797372
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Id: g=48136ed720fba93486e09c642a54dcc5
+                Type: BaseDataVariableType
+                DataType: AuthenticationMode
+                ModellingRule: None
+                Value: 5
+              - Name: Value
+                Id: g=2351b0ca8d6a642ecd5ef4854ea9653e
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ModellingRule: None
+                Value: "/Objects/Corso_VR_17_12_2024/UI/LoginForm/LoginFormComponents/OAuth2Login"
+  - Name: CurrentPanel
+    Id: g=363de09f43304a31ec28c13d5fc000bf
+    Type: NodePointer
+    DataType: NodeId
+    AccessLevel: Read
+    Children:
+    - Name: Kind
+      Id: g=f9e0da60b74d3c950a14a286155a4ad0
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+  - Class: Reference
+    Target: ns=3;i=478
+    Direction: Forward
+  - Name: Width
+    Id: g=bd1bbf877545737df8bb67985c872613
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Id: g=fde0c5dbbf75326082efc77b30fe27dc
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Users
+    Id: g=e3f04cb0424f92afc73c87aad62e8bf0
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=53e83fb0182a12fca154861e33e62320
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: PanelAliasNode
+    Id: g=2eb97a233cf1bff2a6cfc0bc4ead0a25
+    Type: BaseDataVariableType
+    DataType: NodeId
+    ValueRank: ScalarOrOneDimension
+    Children:
+    - Name: DynamicLink
+      Id: g=11a7195c2fdbe6aec28e66285358bd35
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Users@NodeId"
+- File: LoginFormComponents/LoginFormComponents.yaml
+- Name: ns=4;LibraryReference
+  Id: g=7fb2364b859df7d7c3ffc3e4ce565032
+  Type: ObjectLibraryReference
+  DataType: ObjectLibraryReferenceDataType
+  Value: 
+   {
+    "TypeId": {
+     "Id": 72,
+     "Namespace": 4
+    },
+    "Body": {
+     "libraryGuid": "de905a58759b4ff38bbb66c9d44c67ad",
+     "objectGuid": "64c3e1535979981f3ad5449b009a965c",
+     "objectVersion": 1,
+     "highestIgnoredVersion": 0
+    }
+   }
