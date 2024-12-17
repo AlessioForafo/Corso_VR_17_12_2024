@@ -1,2 +1,5 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- File: VariabiliDataLogger/VariabiliDataLogger.yaml
+- File: VariabiliRicetta/VariabiliRicetta.yaml

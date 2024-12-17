@@ -1,2 +1,85 @@
 Name: Recipes
 Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=71430395fb0f51a2953d8e96f2bdad29
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Ingrediente1
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Ingrediente2
+      Type: BaseDataVariableType
+      DataType: String
+    - Name: Ingrediente3
+      Type: BaseDataVariableType
+      DataType: Boolean
+  - Class: Reference
+    Target: ns=21;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Corso_VR_17_12_2024/DataStores/EmbeddedDatabase1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Corso_VR_17_12_2024/Model/VariabiliRicetta"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=8cd7feaa4af24409ffa08cd3406c69a8
+    Type: BaseObjectType
+    Children:
+    - Name: Ingrediente1
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Ingrediente2
+      Type: BaseDataVariableType
+      DataType: String
+    - Name: Ingrediente3
+      Type: BaseDataVariableType
+      DataType: Boolean

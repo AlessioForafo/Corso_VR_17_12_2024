@@ -1,0 +1,12 @@
+Name: VariabiliDataLogger
+Type: FolderType
+Children:
+- Name: Temperatura
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Pressione
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Umidita
+  Type: BaseDataVariableType
+  DataType: Int32
